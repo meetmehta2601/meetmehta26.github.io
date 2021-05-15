@@ -19,7 +19,11 @@ button1.addEventListener("click",jokes)
 // const button = document.getElementById("joke");
 button1.addEventListener("mouseover", (event)=>{
 event.target.style.backgroundColor="black"
-});
-button1.addEventListener("mouseout",(event)=>{
-    event.target.style.backgroundColor="chocolate"  
-})
+setTimeout(function() {
+    event.target.style.backgroundColor = "chocolate";
+  }, 500);
+},false);
+// button1.addEventListener("mouseout",(event)=>{
+//     event.target.style.backgroundColor="chocolate" 
+
+// })
