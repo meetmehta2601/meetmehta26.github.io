@@ -1,5 +1,12 @@
 button{
-    width: 100%
+    width: 100%;
+    border-radius:5px;
+    background-color:chocolate;
+    border:none;
+    color:#ffff;
+    font-size :20px;
+    font-weight: 600;
+    height: 40px
 }
 body{
     margin: 0
