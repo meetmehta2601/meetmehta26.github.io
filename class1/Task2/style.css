@@ -1,0 +1,56 @@
+body{
+    background-image: url("./Assets/2195669.jpg");
+    margin: 0
+}
+.menubar {
+    background-color: #7ae0c6;
+    border-radius: 10px;
+}
+.menubar ul{
+    margin:0 0 20px 0
+}
+.menubar > ul li{
+    list-style: none;
+    margin-right: 25px;
+    display: inline-block;
+    padding: 15px 0px
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #195c08;
+    margin: 0px 20px;
+}
+.table{
+    font-family: 'PT sans', sans-serif;
+    width: 800px;
+    text-align: left;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+.table thead {
+    border-radius: 10px 10px 0 0;
+    color: #195c08
+}
+.table thead th{
+    background-color: #7ae0c6;
+    padding: 15px 20px;
+}
+.table tbody td{
+    text-align: left;
+    padding: 12px 20px;
+    color: grey;
+}
+.table tbody tr{
+    border-radius: 1px solid #eee;
+    border-left: 1px solid #eee;
+    background-color: rgb(247, 243, 243);
+}
+.table tbody tr:nth-child(2n){
+    background-color: lightgray;
+}
+.table tbody tr:last-child {
+    border-bottom: 1px solid #eee;
+    border-radius: 10px;    
+}
